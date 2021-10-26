@@ -1,4 +1,6 @@
 function convertToRoman(num) {
+  // Works up to input value of 3999
+  
   // Copy of input number
   let numC = num;
 
