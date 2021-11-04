@@ -1,3 +1,10 @@
+/*
+
+A function that takes a ROT13 encoded string as input and returns a decoded string.
+
+All inputs must be uppercase. Does not transform any non-alphabetic character (i.e. spaces, punctuation), but does pass them on.
+
+*/
 function rot13(str) {
   // Define a replacer function
   function replacer(match) {
